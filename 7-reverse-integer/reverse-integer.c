@@ -12,3 +12,9 @@ if(reversed<=-2147483648||reversed>=2147483648){
 }
 return reversed;
 }
+/*you can also use:
+if(rev>INT_MAX||rev<INT_MIN){
+return = 0;
+} 
+and also return (int)reversed;
+*/
