@@ -1,7 +1,8 @@
 bool isPerfectSquare(int num) {
  
- for(long long i=1; i<=num; i++){
-
+ //also: for(long long i=1; i<=num; i++){   
+ for(long long i=1; i*i<=num;i++){
+ 
  
     if(i*i==num){
 
