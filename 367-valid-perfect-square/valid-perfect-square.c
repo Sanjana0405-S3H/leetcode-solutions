@@ -8,5 +8,5 @@ bool isPerfectSquare(int num) {
        return true;
       }
  }
- return false;;
+ return false;
 }
