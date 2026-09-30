@@ -9,4 +9,5 @@ int* buildArray(int* nums, int numsSize, int* returnSize) {
 
     }
     return ans;
+    free(ans);
 }
