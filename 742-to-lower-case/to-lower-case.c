@@ -6,3 +6,9 @@ if(s[i]>='A'&&s[i]<='Z'){
 }
 return s;
 }
+/*or just:
+for(int i=0; s[i]!='\0';i++){
+s[i]=tolower.(s[i]);
+
+}*/
+
