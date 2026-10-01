@@ -3,7 +3,7 @@ int maximumWealth(int** accounts, int accountsSize, int* accountsColSize) {
     for(int i=0; i<accountsSize; i++){
             int sum=0;
 
-        for(int j=0; j<accountsColSize[i]; j++){
+        for(int j=0; j<accountsColSize[i]; j++){  //or for(int j=0; j<accountsColSize; j++)
             
         sum=sum+accounts[i][j];
         }
